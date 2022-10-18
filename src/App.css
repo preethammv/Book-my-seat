@@ -1,38 +1,201 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainNav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  background-color: #36454F;
+  height: 70px;
+}
+
+.navChild {
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-size: large;
+  border-radius: 10px;
+  border: 1px solid white;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+#navOne {
+  width: 200px;
+  background-color: rgb(248, 68, 100);
+  border: none;
+  font-family: cursive;
+}
+
+.navChild:hover {
+  cursor: pointer;
+  background-color: rgb(248, 68, 100);
+}
+
+.movie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+
+.movieChild {
+  margin: 5px;
+}
+
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  border: none;
+  background-color: rgb(248, 68, 100);
+  border-radius: 10px;
+  color: black;
+  font-size: large;
+
+
+}
+
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.3s;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* ticket page css*/
+
+.mainTickets{
+  background-color: whitesmoke;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ticketSelect {
+  background-color: #353935;
+  display: flex;
+  align-items: center;
+  height: 40px;
 }
+
+.abc {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+
+}
+
+.typeSelection {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  padding: 5px;
+}
+
+/* .standard,
+tr,
+td {
+  width: 400px;
+  height: 40px;
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.standard:hover{
+  background-color: #32CD32;
+  cursor: pointer;
+}
+
+.mainTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+} */
+
+/* seats*/
+
+.seat{
+  width: 20px;
+  height: 20px;
+  background-color: #36454F;
+  margin: 5px;
+}
+
+.standard{
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+ .premium{
+   margin-top: 20px; 
+   cursor: pointer;
+} 
+
+p{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+/*screen*/
+
+.mainScreen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen {
+  margin-top: 100px;
+  height: 30px;
+  width: 600px;
+  background-color:#191970;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: white;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  width: 50px;
+  height: 30px;
+  border: none;
+}
+span{
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: large;
+}
+
+p{
+  margin-top: 20px;
+  font-size: larger;
+}
+
